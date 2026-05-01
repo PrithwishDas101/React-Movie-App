@@ -1,8 +1,24 @@
 .main-content {
   flex: 1;
-  padding: 2rem;
-  box-sizing: border-box;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  padding: 1rem;              
+  max-width: 1200px;         
+  margin: 0 auto;            
+}
+
+/* Tablet */
+@media (min-width: 640px) {
+  .main-content {
+    padding: 1.5rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .main-content {
+    padding: 2rem;
+  }
 }
